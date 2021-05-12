@@ -106,6 +106,7 @@ NodeCameraView.propTypes = {
   smoothSkinLevel: PropTypes.oneOf([0, 1, 2, 3, 4, 5]),
   cryptoKey:PropTypes.string,
   onStatus: PropTypes.func,
+  zoomScale: PropTypes.number,
   ...View.propTypes // 包含默认的View的属性
 };
 
