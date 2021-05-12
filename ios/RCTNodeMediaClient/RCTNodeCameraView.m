@@ -125,8 +125,4 @@
   return [_np switchCamera];
 }
 
-- (NSUInteger)zoomScale {
-  return _np.zoomScale;
-}
-
 @end
