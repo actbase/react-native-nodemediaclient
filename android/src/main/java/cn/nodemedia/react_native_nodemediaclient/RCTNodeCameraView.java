@@ -110,7 +110,7 @@ public class RCTNodeCameraView extends NodeCameraView implements LifecycleEventL
 
     public void setZoomScale(int zoomScale) {
         this.zoomScale = zoomScale;
-        mNodePublisher.setZoomScale = zoomScale;
+        mNodePublisher.setZoomScale(zoomScale);
     }
 
     public int startPrev() {
