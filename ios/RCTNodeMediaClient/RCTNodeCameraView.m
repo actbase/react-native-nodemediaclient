@@ -105,8 +105,13 @@
   [_np setCryptoKey:cryptoKey];
 }
 
--(int)startprev {
-  return [_np startPreview];
+
+-(void)setZoomScale:(NSUInteger)zoomScale {
+  [_np setZoomScale:zoomScale];
+}
+
+- (NSUInteger)zoomScale {
+  return _np.zoomScale;
 }
 
 -(int)stopprev {
@@ -123,6 +128,10 @@
 
 -(int)switchCamera {
   return [_np switchCamera];
+}
+
+- (NSUInteger)zoomScale {
+  return _np.zoomScale;
 }
 
 @end
